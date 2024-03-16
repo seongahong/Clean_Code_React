@@ -1,9 +1,8 @@
-import React from "react";
-import { useState, useEffect, useReducer } from "react";
+import { useEffect, useReducer } from "react";
 
 /**
  * 구조화 된 상태를 원한다면 useReducer()
- * 여러 상태가 연관됐을 때 useState 대신 useReducer를 사용하면 상태를 구조화할 수 있음.
+ * 여러 상태가 연관 됐을 때 useState 대신 useReducer를 사용하면 상태를 구조화할 수 있음.
  */
 const INIT_STATE = {
   isLoading: false,
